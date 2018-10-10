@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7e7d7d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLIghtBule">#9ce9f2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="back">#f2eded</color>
+    <color name="mainColor">#7e7d7d</color>
+    <color name="black">#000000</color>
+    <color name="personalText">#000000</color>
+    <color name="addCourseButton">#b6db67</color>
+</resources>

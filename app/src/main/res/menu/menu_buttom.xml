@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@mipmap/main"
+        app:showAsAction="always"
+        android:title="主页" />
+    <item
+        android:id="@+id/courses"
+        android:enabled="true"
+        android:icon="@mipmap/search"
+        app:showAsAction="ifRoom"
+        android:title="课程" />
+    <item
+        android:title="个人中心"
+        android:enabled="true"
+        android:icon="@mipmap/my"
+        app:showAsAction="ifRoom"
+        android:id="@+id/my">
+    </item>
+</menu>
