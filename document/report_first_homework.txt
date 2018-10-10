@@ -1,0 +1,2 @@
+team members£º16301133 ÍõÖ¾
+technical features applied£ºactivity,fragment,bottomNagivation,Adapter,CardView,ListView
