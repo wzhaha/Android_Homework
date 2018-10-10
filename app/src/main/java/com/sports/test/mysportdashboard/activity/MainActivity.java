@@ -27,12 +27,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String userId=userid.getText().toString();
                 String pass=password.getText().toString();
-                if(userId.equals("haha@qq.com")&&pass.equals("haha12345")){
+                /**
+                 * 请求服务器验证账号密码是否正确
+                 */
+                if(userId.length()==0)
+                    Toast.makeText(MainActivity.this,"请输入账号",Toast.LENGTH_LONG).show();
+                else if(pass.length()==0)
+                    Toast.makeText(MainActivity.this,"请输入密码",Toast.LENGTH_LONG).show();
+                else if(userId.equals("haha@qq.com")&&pass.equals("haha12345")){
                     Intent it=new Intent(MainActivity.this,ButtomMenuActivity.class);
+                    it.putExtra("userId",userId);
                     startActivity(it);
                 }
                 else{
-                    Toast.makeText(MainActivity.this,"账号或密码错误",Toast.LENGTH_LONG);
+                    Toast.makeText(MainActivity.this,"账号或密码错误",Toast.LENGTH_LONG).show();
                 }
             }
         });
